@@ -1,0 +1,59 @@
+/* Add styles here */
+body{
+    background-image: url("image/bali-pagoda-indonesia_1150-11021.avif");
+    /* background-repeat: no-repeat; */
+    margin:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    padding: 0%;
+    background-color: aliceblue;
+    opacity: 50%;
+}
+
+.navbarmenu{
+    text-align:right;
+    padding: 5px;
+}
+.navbarmenulist{
+    list-style: none;
+}
+.navbarmenulist > li{
+    display: inline-block;
+    padding: 0px 5px;
+}
+.navbarmenulist > li > a{
+    text-decoration: none;
+    color:black;
+}
+.navbarmenulist > li > a:hover{
+    font-weight: bold;
+}
+.navbarjudul{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    top:30px;
+    left: 15px;
+    text-shadow: 2px 2px 8px white;
+}
+#txhello{
+    font-size: 40px;
+    position: relative;
+    top: 200px;
+    left: 25%;
+}
+#btn1{
+    position: relative;
+    font-size: 12px;
+    padding: 10px 50px;
+    border-radius: 18px;
+    top: 175px;
+    left: 35%;
+}
+#btn1:hover{
+    color:white;
+    background-color: black;
+}
